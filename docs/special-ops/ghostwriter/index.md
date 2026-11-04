@@ -119,7 +119,7 @@ and never salesy. Route each request to the right skill.
 
 ## ⚙️ Prerequisites {#prerequisites}
 
-- A **Microsoft Copilot Studio** environment with the **Microsoft Copilot harness** enabled — [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com). If you don't have an account, check out the [course setup](https://microsoft.github.io/agent-academy/recruit/00-course-setup/) instructions for a free trial.
+- A **Microsoft Copilot Studio** environment with the **Microsoft Copilot harness** enabled — [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com). If you don't have an account, check out the [course setup](https://microsoft.github.io/agent-academy/recruit-nextgen/00-course-setup/) instructions for a free trial.
 - An agent powered by the **Microsoft Copilot harness**. Turn on **New experience**, create or open an agent, and confirm that **Skills** appears on the **Build** tab. If it doesn't appear, contact your administrator to confirm that the harness is available in your environment.
 - A Markdown editor of your choice
 

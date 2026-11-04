@@ -28,7 +28,7 @@ These pieces can work together. Start with the user experience and business proc
 
 For agents, Copilot Studio offers four harnesses: **Microsoft Copilot**, **Copilot chat**, **Customer Conversation**, and **standard**. A harness is the runtime around the model; it shapes the agent's capabilities and how it carries out work.
 
-The Recruit and Operative courses provide hands-on paths focused on the **standard** and **Microsoft Copilot** harnesses. That course structure isn't a complete list of everything Copilot Studio can build.
+The Recruit and Operative courses provide hands-on paths focused on the **Microsoft Copilot harness**. That course structure isn't a complete list of everything Copilot Studio can build.
 
 > [!NOTE]
 > App creation and the Customer Conversation agent experience are in preview. Availability, prerequisites, and billing depend on the artifact and harness you choose. See the [Copilot Studio overview](https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio), [apps overview](https://learn.microsoft.com/en-us/microsoft-copilot-studio/apps-experience/apps-overview), and [harness comparison](https://learn.microsoft.com/en-us/microsoft-copilot-studio/harnesses-overview).
@@ -39,8 +39,8 @@ The **Copilot Studio Agent Academy** is a multi-phase training program designed 
 
 | Rank             | Level | Status                                                                                         | Visual                                                                            |
 |------------------|:-----:|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| 🟢 **Recruit**   | •     | <action-button href="https://aka.ms/agent-academy-recruit" label="Get started" icon="🚀" />   | ![Recruit Badge](./images/mcs-agent-academy-recruit-badge.png){ width="300" }     |
-| 🔵 **Operative** | ••    | <action-button href="https://aka.ms/agent-academy-operative" label="Get started" icon="🚀" /> | ![Operative Badge](./images/mcs-agent-academy-operative-badge.png){ width="300" } |
+| 🟢 **Recruit**   | •     | <action-button href="./recruit-nextgen/" label="Get started" icon="🚀" />   | ![Recruit Badge](./images/mcs-agent-academy-recruit-badge.png){ width="300" }     |
+| 🔵 **Operative** | ••    | <action-button href="./operative-nextgen/" label="Get started" icon="🚀" /> | ![Operative Badge](./images/mcs-agent-academy-operative-badge.png){ width="300" } |
 | 🟡 **Commander** | •••   | Coming Soon                                                                                    | ![Commander Badge](./images/mcs-agent-academy-commander-badge.png){ width="300" } |
 
 Each level builds on the last. Finish your Recruit mission, and keep going to level up your agent credentials.

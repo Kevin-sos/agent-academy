@@ -65,7 +65,7 @@ Participants chose the track matching their experience level. Submissions were l
 
 Build a beginner-friendly agent that demonstrates the core fundamentals of agent creation. Submissions should show a clear use case, well-defined instructions, relevant knowledge sources, and a working agent experience that helps a user complete a real task.
 
-[View Recruit curriculum →](/recruit/)
+[View Recruit curriculum →](/recruit-nextgen/)
 :::
 
 ::: details 🔵 Operative
@@ -73,7 +73,7 @@ Build a beginner-friendly agent that demonstrates the core fundamentals of agent
 
 Build a more advanced agent solution that demonstrates orchestration across multiple agents, agent flows, and AI prompt integration. Submissions should show how agents can coordinate work, trigger or support business processes, use prompts to reason over information, and produce useful outcomes beyond a basic single-agent experience.
 
-[View Operative curriculum →](/operative/)
+[View Operative curriculum →](/operative-nextgen/)
 :::
 
 ::: details 🎯 Special Ops

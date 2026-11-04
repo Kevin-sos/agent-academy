@@ -42,7 +42,7 @@ In this mission, you'll build:
 
 ## ⚙️ Prerequisites {#prerequisites}
 
-- Microsoft Copilot Studio trial or paid account with access to the **Microsoft Copilot harness**. If you don't have an account, check out the [course setup](https://microsoft.github.io/agent-academy/recruit/00-course-setup/) instructions to see how to get a free trial.
+- Microsoft Copilot Studio trial or paid account with access to the **Microsoft Copilot harness**. If you don't have an account, check out the [course setup](https://microsoft.github.io/agent-academy/recruit-nextgen/00-course-setup/) instructions to see how to get a free trial.
 
 > [!IMPORTANT] Microsoft Copilot harness billing
 > This mission uses the **Microsoft Copilot harness in Microsoft Copilot Studio**, which uses usage-based billing. Building, testing in Preview, evaluating, and using the agent might consume **Copilot Credits**. Review the [Copilot Credits billing overview](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/billing-credit-overview) before you begin.

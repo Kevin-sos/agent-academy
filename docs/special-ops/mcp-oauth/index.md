@@ -43,7 +43,7 @@ In this mission, you'll build:
 
 ## ⚙️ Prerequisites {#prerequisites}
 
-- Microsoft Copilot Studio trial or paid account with access to the **Microsoft Copilot harness**. If you don't have one, see the [course setup](https://microsoft.github.io/agent-academy/recruit/00-course-setup/) instructions.
+- Microsoft Copilot Studio trial or paid account with access to the **Microsoft Copilot harness**. If you don't have one, see the [course setup](https://microsoft.github.io/agent-academy/recruit-nextgen/00-course-setup/) instructions.
 - Permission to register applications in **Microsoft Entra ID** (and to grant admin consent).
 - **Visual Studio Code**, the **.NET SDK**, and the **dev tunnel** CLI installed locally.
 

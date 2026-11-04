@@ -1,5 +1,3 @@
-import { recruitExperienceSwitcherEnabled } from "../featureFlags";
-
 export type CoursePath = {
   label: string;
   description: string;
@@ -23,24 +21,8 @@ export type CoursePathGroup = {
 export const coursePathGroups: CoursePathGroup[] = [
   {
     course: "Recruit",
-    hub: "/recruit/",
+    hub: "/recruit-nextgen/",
     paths: [
-      {
-        label: "Standard harness",
-        description:
-          "Build conversation logic with topics, triggers, nodes, and agent flows",
-        // Until the switcher launches, the standard course still owns /recruit/.
-        home: recruitExperienceSwitcherEnabled
-          ? "/recruit/standard/"
-          : "/recruit/",
-        root: "/recruit/",
-        tag: "Topic-based",
-        highlights: [
-          "13 missions",
-          "Topics, Adaptive Cards, and agent flows",
-          "Best for rule-based, predictable conversations",
-        ],
-      },
       {
         label: "Microsoft Copilot harness",
         description:
@@ -58,21 +40,8 @@ export const coursePathGroups: CoursePathGroup[] = [
   },
   {
     course: "Operative",
-    hub: "/operative/",
+    hub: "/operative-nextgen/",
     paths: [
-      {
-        label: "Standard Harness",
-        description:
-          "Build a multi-agent hiring system with the Standard Harness in Copilot Studio",
-        home: "/operative/standard/",
-        root: "/operative/",
-        tag: "Topic-based",
-        highlights: [
-          "12 missions",
-          "Connected agents, prompts, and agent flows",
-          "Best for structured hiring workflows with authored logic",
-        ],
-      },
       {
         label: "Microsoft Copilot harness",
         description:
@@ -103,7 +72,7 @@ export function isPathActive(
   path: CoursePath,
   relativePath: string
 ) {
-  // The hub shares its URL prefix with the standard path, so match it explicitly.
+  // The course landing page should not count as an active nested path.
   if (relativePath === group.hub) return false;
   return relativePath.startsWith(path.root);
 }

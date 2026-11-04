@@ -44,8 +44,8 @@ To submit an entry, complete the following steps:
 
 Pick one of the following tracks (each a "Track") to participate in at [https://aka.ms/agentacademy/submit](https://aka.ms/agentacademy/submit) ("Submission Website"):
 
-- **Recruit** – For additional details about this Track, see [https://microsoft.github.io/agent-academy/recruit/](https://microsoft.github.io/agent-academy/recruit/)
-- **Operative** – For additional details about this Track, see [https://microsoft.github.io/agent-academy/operative/](https://microsoft.github.io/agent-academy/operative/)
+- **Recruit** – For additional details about this Track, see [https://microsoft.github.io/agent-academy/recruit-nextgen/](https://microsoft.github.io/agent-academy/recruit-nextgen/)
+- **Operative** – For additional details about this Track, see [https://microsoft.github.io/agent-academy/operative-nextgen/](https://microsoft.github.io/agent-academy/operative-nextgen/)
 - **Special Ops** – For additional details about this Track, see [https://microsoft.github.io/agent-academy/special-ops/](https://microsoft.github.io/agent-academy/special-ops/)
 - **Cowork Collective** – For additional details about this Track, see [https://microsoft.github.io/agent-academy/cowork-collective/](https://microsoft.github.io/agent-academy/cowork-collective/)
 

@@ -40,7 +40,7 @@ Welcome, agent. Your mission — should you choose to accept it — is to become
 
 ## ⚙️ Prerequisites {#prerequisites}
 
-This mission assumes you have completed the [Operative course](/operative/) and have a working Copilot Studio environment. In addition, make sure you have the following installed:
+This mission assumes you have completed the [Operative course](/operative-nextgen/) and have a working Copilot Studio environment. In addition, make sure you have the following installed:
 
 - **Visual Studio Code** - Download and install from [code.visualstudio.com](https://code.visualstudio.com/). Select the installer for your operating system (Windows, macOS, or Linux).
 - **Node.js (LTS)** - Required by the Copilot Studio VS Code extension. Download from [nodejs.org](https://nodejs.org/). Choose the **LTS** version. Verify with `node --version` in a terminal.

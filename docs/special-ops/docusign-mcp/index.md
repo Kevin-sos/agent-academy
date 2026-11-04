@@ -214,7 +214,7 @@ To complete this Special Ops mission, you'll need the following prerequisites.
 - A SharePoint site where you have permissions to create a new folder in the Documents library - this will be used in a workflow step
 
 > [!TIP] Prerequisites help:
-> If you need help getting a Copilot Studio license, please reference the [Recruit Course Setup lab](./../../recruit/00-course-setup/index.md) which walks you through setting up a Power Platform environment with a Copilot Studio trial.
+> If you need help getting a Copilot Studio license, please reference the [Recruit Course Setup lab](./../../recruit-nextgen/00-course-setup/index.md) which walks you through setting up a Power Platform environment with a Copilot Studio trial.
 
 ### Two email addresses
 
@@ -1432,7 +1432,7 @@ Before we move onto building the agent in Microsoft Copilot Studio, it's best pr
 
 ### Prerequisites
 
-- **New solution**: As a best practice, create a new solution for this agent before you create the agent itself. Refer to our [Recruit mission](../../recruit/04-creating-a-solution/index.md) to learn how to create a solution.
+- **New solution**: As a best practice, create a new solution for this agent before you create the agent itself. Refer to our [Recruit mission](../../recruit-nextgen/03-creating-a-solution/index.md) to learn how to create a solution.
 - **Use the Microsoft Copilot harness**: This lab requires the Microsoft Copilot harness because the Docusign MCP Demo tool is available there. Turn **New Experience** on before continuing.
 
     ![Toggle new experience](assets/1.5_00_ToggleNewExperience.png)

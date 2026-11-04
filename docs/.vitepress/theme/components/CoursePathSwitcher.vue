@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { useRoute, withBase } from "vitepress";
-import { recruitExperienceSwitcherEnabled } from "../../featureFlags";
 import { findGroupForPath, isPathActive, type CoursePath } from "../coursePaths";
 
 const route = useRoute();
@@ -37,7 +36,7 @@ function selectPath(path: CoursePath) {
 
 <template>
   <nav
-    v-if="activeGroup && isCourseOverview && (activeGroup.course !== 'Recruit' || recruitExperienceSwitcherEnabled)"
+    v-if="activeGroup && activeGroup.paths.length > 1 && isCourseOverview"
     class="course-path-switcher"
     :aria-label="`${activeGroup.course} course path`"
   >

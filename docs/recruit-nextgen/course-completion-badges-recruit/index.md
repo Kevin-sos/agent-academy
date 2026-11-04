@@ -99,7 +99,7 @@ No account = no badge issuance (even with a valid submission).
 🎖 Congratulations, Recruit.  
 You didn’t just read about a concept, you *built something*.
 
-Next up: **[Operative training](../../operative/)**.
+Next up: **[Operative training](../../operative-nextgen/)**.
 
 ## 📚 Tactical Resources {#tactical-resources}
 

@@ -5,32 +5,9 @@ import { mermaidPlugin } from "./plugins/vitepress-mermaid";
 import { missionsPlugin } from "./plugins/missions";
 import { previewBannerPlugin } from "./plugins/preview-banner";
 import { downloadFilesPlugin } from "./plugins/download-files";
-import { recruitExperienceSwitcherEnabled } from "./featureFlags";
-import { coursePathGroups } from "./theme/coursePaths";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const docsDir = path.resolve(__dirname, "..");
-
-const recruitGroup = coursePathGroups.find(
-  (group) => group.hub === "/recruit/"
-);
-const recruitStandardHome =
-  recruitGroup?.paths.find((coursePath) => coursePath.root === "/recruit/")
-    ?.home ?? "/recruit/";
-const recruitNextGenHome =
-  recruitGroup?.paths.find(
-    (coursePath) => coursePath.root === "/recruit-nextgen/"
-  )?.home ?? "/recruit-nextgen/";
-const operativeGroup = coursePathGroups.find(
-  (group) => group.hub === "/operative/"
-);
-const operativeStandardHome =
-  operativeGroup?.paths.find((coursePath) => coursePath.root === "/operative/")
-    ?.home ?? "/operative/standard/";
-const operativeNextGenHome =
-  operativeGroup?.paths.find(
-    (coursePath) => coursePath.root === "/operative-nextgen/"
-  )?.home ?? "/operative-nextgen/";
 
 export default defineConfig({
   title: "Agent Academy",
@@ -38,16 +15,6 @@ export default defineConfig({
   cleanUrls: true,
   srcExclude: ["intelligence-officer/**/assets/**/*.md"],
   ignoreDeadLinks: [/\.docx$/],
-  rewrites: {
-    ...(recruitExperienceSwitcherEnabled
-      ? {
-          "recruit/index.md": "recruit/standard/index.md",
-          "recruit/choose/index.md": "recruit/index.md",
-        }
-      : {}),
-    "operative/index.md": "operative/standard/index.md",
-    "operative/choose/index.md": "operative/index.md",
-  },
   head: [
     ["link", { rel: "icon", href: "/agent-academy/logo.png" }],
     [
@@ -73,8 +40,8 @@ export default defineConfig({
       {
         text: "Courses",
         items: [
-          { text: "Recruit", link: "/recruit/" },
-          { text: "Operative", link: "/operative/" },
+          { text: "Recruit", link: "/recruit-nextgen/" },
+          { text: "Operative", link: "/operative-nextgen/" },
           { text: "Commander (Coming Soon)", link: "/commander/" },
         ],
       },
@@ -107,72 +74,12 @@ export default defineConfig({
         items: [
           {
             text: "Recruit",
-            link: "/recruit/",
+            link: "/recruit-nextgen/",
             collapsed: true,
             items: [
               {
-                text: "Standard harness",
-                link: recruitStandardHome,
-                collapsed: true,
-                items: [
-                  { text: "Course Setup", link: "/recruit/00-course-setup/" },
-                  {
-                    text: "Introduction to Agents",
-                    link: "/recruit/01-introduction-to-agents/",
-                  },
-                  {
-                    text: "Copilot Studio Fundamentals",
-                    link: "/recruit/02-copilot-studio-fundamentals/",
-                  },
-                  {
-                    text: "Create A Declarative Agent For M365 Copilot",
-                    link: "/recruit/03-create-a-declarative-agent-for-M365Copilot/",
-                  },
-                  {
-                    text: "Creating A Solution",
-                    link: "/recruit/04-creating-a-solution/",
-                  },
-                  {
-                    text: "Using Prebuilt Agents",
-                    link: "/recruit/05-using-prebuilt-agents/",
-                  },
-                  {
-                    text: "Create Agent From Conversation",
-                    link: "/recruit/06-create-agent-from-conversation/",
-                  },
-                  {
-                    text: "Add New Topic With Trigger",
-                    link: "/recruit/07-add-new-topic-with-trigger/",
-                  },
-                  {
-                    text: "Add Adaptive Cards",
-                    link: "/recruit/08-add-adaptive-card/",
-                  },
-                  {
-                    text: "Add An Agent Flow",
-                    link: "/recruit/09-add-an-agent-flow/",
-                  },
-                  {
-                    text: "Add Event Triggers",
-                    link: "/recruit/10-add-event-triggers/",
-                  },
-                  {
-                    text: "Publish Your Agents",
-                    link: "/recruit/11-publish-your-agent/",
-                  },
-                  {
-                    text: "Understanding Licensing",
-                    link: "/recruit/12-understanding-licensing/",
-                  },
-                  {
-                    text: "Course Completion Badge",
-                    link: "/recruit/course-completion-badges-recruit/",
-                  },
-                ],
-              },
-              {
                 text: "Microsoft Copilot harness",
-                link: recruitNextGenHome,
+                link: "/recruit-nextgen/",
                 collapsed: true,
                 items: [
                   {
@@ -221,77 +128,16 @@ export default defineConfig({
                   },
                 ],
               },
-            ].flatMap((group, index) =>
-              recruitExperienceSwitcherEnabled
-                ? [group]
-                : index === 0
-                  ? group.items
-                  : []
-            ),
+            ],
           },
           {
             text: "Operative",
-            link: "/operative/",
+            link: "/operative-nextgen/",
             collapsed: true,
             items: [
               {
-                text: "Standard Harness",
-                link: operativeStandardHome,
-                collapsed: true,
-                items: [
-                  {
-                    text: "Get started with the Hiring Agent",
-                    link: "/operative/01-get-started/",
-                  },
-                  {
-                    text: "Authoring Agent Instructions",
-                    link: "/operative/02-agent-instructions/",
-                  },
-                  {
-                    text: "Make your agent multi-agent ready",
-                    link: "/operative/03-multi-agent/",
-                  },
-                  {
-                    text: "Automate your agent with Triggers",
-                    link: "/operative/04-automate-triggers/",
-                  },
-                  {
-                    text: "Understanding Agent Models",
-                    link: "/operative/05-model-selection/",
-                  },
-                  {
-                    text: "Content Moderation and AI Safety",
-                    link: "/operative/06-ai-safety/",
-                  },
-                  {
-                    text: "Extracting Resume Contents",
-                    link: "/operative/07-multimodal-prompts/",
-                  },
-                  {
-                    text: "Prompts - Dataverse Grounding",
-                    link: "/operative/08-dataverse-grounding/",
-                  },
-                  {
-                    text: "Generating an Interview Prep Document",
-                    link: "/operative/09-document-generation/",
-                  },
-                  {
-                    text: "Integrate with MCP Servers",
-                    link: "/operative/10-mcp/",
-                  },
-                  {
-                    text: "Obtain User Feedback with Adaptive Cards",
-                    link: "/operative/11-obtain-user-feedback/",
-                  },
-                  {
-                    text: "Course Completion Badge",
-                    link: "/operative/course-completion-badges-operative/",
-                  },
-                ],
-              },
-              {
                 text: "Microsoft Copilot harness",
-                link: operativeNextGenHome,
+                link: "/operative-nextgen/",
                 collapsed: true,
                 items: [
                   {

@@ -75,7 +75,7 @@ For example, a search for "software engineering skills" can surface candidates d
 
 ## ⚙️ Prerequisites {#prerequisites}
 
-- Microsoft Copilot Studio trial or paid account with access to the **Microsoft Copilot harness**. If you don't have an account, see the [course setup](https://microsoft.github.io/agent-academy/recruit/00-course-setup/) instructions for a free trial.
+- Microsoft Copilot Studio trial or paid account with access to the **Microsoft Copilot harness**. If you don't have an account, see the [course setup](https://microsoft.github.io/agent-academy/recruit-nextgen/00-course-setup/) instructions for a free trial.
 - An **Azure subscription** with permission to create resources (Azure AI Search, Storage, and Azure OpenAI / Microsoft Foundry).
 - Familiarity with basic Copilot Studio agent creation and basic Azure resource management.
 

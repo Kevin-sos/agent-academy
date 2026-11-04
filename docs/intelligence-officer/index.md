@@ -33,7 +33,7 @@ By completing this course, you'll be able to:
 
 ## Who This Is For
 
-This course is for makers, developers, and solution architects who understand basic Power Platform concepts and want to connect business applications to agents. Familiarity with [Recruit](/recruit/) is helpful; the Zava setup does not require completing the Operative hiring scenario.
+This course is for makers, developers, and solution architects who understand basic Power Platform concepts and want to connect business applications to agents. Familiarity with [Recruit](/recruit-nextgen/) is helpful; the Zava setup does not require completing the Operative hiring scenario.
 
 The course uses **one learning path**. GitHub Copilot CLI is a development tool in these missions, not a choice between Copilot Studio authoring harnesses.
 

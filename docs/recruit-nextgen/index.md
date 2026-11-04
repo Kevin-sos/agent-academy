@@ -23,10 +23,10 @@ This beginner, hands-on course introduces the Microsoft Copilot harness and its 
 
 ## About this learning path {#about-this-learning-path}
 
-> [!INFO] How this path differs from the standard harness path
-> The [standard harness path](/recruit/) was created before the Microsoft Copilot harness was available and introduces the topic-based authoring experience. This path revisits a familiar business scenario using a different architecture: natural-language instructions, skills, tools, and workflows replace manually authored conversation paths.
+> [!INFO] Harness scope
+> This course focuses on the Microsoft Copilot harness. Copilot Studio also supports the standard harness, which uses topic-based authoring; the two harnesses have different capabilities and authoring models.
 >
-> Reusing the scenario is intentional. It helps you compare the approaches without also learning a new business process. It doesn't mean every IT support agent requires the Microsoft Copilot harness; the right harness depends on how the agent must behave.
+> The right harness depends on how the agent must behave. This course does not require you to build or configure a standard-harness agent.
 
 ## 🎯 Mission Objective {#mission-objective}
 
