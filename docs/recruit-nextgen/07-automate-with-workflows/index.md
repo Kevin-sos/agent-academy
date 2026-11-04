@@ -444,7 +444,9 @@ On the Microsoft Copilot harness, workflows are added to your agent as a **tool*
 
    ![Return to the visual email editor](./assets/07-return-to-the-visual-email-editor.png)
 
-1. Lastly, for the **Sensitivity** input parameter, select the **General\All Employees (unrestricted)** label from the drop-down list.
+1. Lastly, for the **Sensitivity** input parameter, select the **C1\EN Public** label from the drop-down list.
+
+   The screenshot below shows labels from a sample tenant. In Sopra Steria, select **C1\EN Public**.
 
    > [!TIP] Understanding sensitivity labels in Outlook emails
    > A sensitivity label is a classification that helps protect and manage emails and files according to your organization's information protection policies. It helps users identify sensitive content and apply the appropriate level of protection without impacting collaboration or productivity.
