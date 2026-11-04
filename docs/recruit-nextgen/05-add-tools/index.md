@@ -103,7 +103,7 @@ In this lab we’ll use the **SharePoint - Get items** connector action so the a
 
 ### Prerequisites
 
-1. **SharePoint list** - the **EmployeeAssets** list from [Mission 00 - Course Setup](../00-course-setup/index.md#step-5-create-new-sharepoint-site).
+1. **SharePoint list** - your `EmployeeAssets - Your Name` list from [Mission 00 - Course Setup](../00-course-setup/index.md#step-5-create-your-list-on-the-shared-sharepoint-site).
 1. **Contoso IT Concierge** - the agent created in [Mission 04 - Build an agent with the Microsoft Copilot harness](../04-build-a-custom-agent/index.md#lab-04-create-an-agent-with-the-github-copilot-harness).
 
 Let's begin!
@@ -164,28 +164,14 @@ Let's begin!
 
    For the **Site Address** input parameter, update **How is this filled?** from **Fill with AI** to **Custom**.
 
-   Then select the **Value** drop-down field and select the **New** button.
-
-    ![Update the Site Address input parameter](./assets/05-update-the-site-address-input-parameter.png)
-
-1. In the **Site Address** drop-down field, select the SharePoint site you created in the Course Setup mission then select **Save**.
-
-   ![Select SharePoint site for the variable configuration](./assets/05-select-sharepoint-site-for-the-variable-configuration.png)
+   1. In the **Value** field, select the `TEMPLATE_SP_NAME` SharePoint site used in the Course Setup mission.
 
 1. Scroll down to the **List Name** input parameter and repeat the same steps:
 
    - Under **How is this filled?**, select **Custom**.
-   - In the **Value** drop-down field, select **New**.
-
-   ![Configure List Name input parameter](./assets/05-configure-list-name-input-parameter.png)
-
-1. Select the SharePoint List created in the Course Setup mission, **EmployeeAssets**, and select **Save**.
-
-   ![Select List for the variable configuration](./assets/05-select-list-for-the-variable-configuration.png)
+      - In the **Value** field, select the **EmployeeAssets - Your Name** SharePoint list created in the Course Setup mission.
 
 1. With the input changes still pending, select **Done** to save them and close the configuration panel.
-
-    ![Finish configuring the SharePoint tool inputs](./assets/05-finish-configuring-the-sharepoint-tool-inputs.png)
 
 The input parameters for the **Get items** tool have been successfully configured. 👍🏻
 

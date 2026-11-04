@@ -132,7 +132,7 @@ Before starting this lab, make sure you have:
 
 - Access to Copilot Studio with the **New experience** toggle enabled for the Microsoft Copilot harness authoring surface
 - The solution from [Mission 03 - Creating a solution](../03-creating-a-solution/index.md)
-- Your test knowledge source(s), for example the **Contoso IT** SharePoint site from [Mission 00 - Course setup](../00-course-setup/index.md#step-5-create-new-sharepoint-site)
+- Your test knowledge source(s), for example the `TEMPLATE_SP_NAME` SharePoint site from [Mission 00 - Course setup](../00-course-setup/index.md#step-5-create-your-list-on-the-shared-sharepoint-site)
 
 > [!WARNING] Copilot Credit consumption starts during creation
 > Agents built with the **Microsoft Copilot harness** use consumption-based billing. The natural-language authoring, Preview, and Evaluation experiences consume **Copilot Credits** while you build and test; manual configuration in the **Build** and **Monitor** tabs doesn't consume credits. See [Mission 09 - Understanding Licensing](../09-understanding-licensing/index.md) for more guidance and the [Copilot Credits Guide](https://aka.ms/CopilotCredits/LicensingGuide) for current details.
@@ -225,7 +225,7 @@ As explained in the [course naming update](../index.md#harness-naming-update), t
 
     ![Select SharePoint knowledge source option](./assets/04-select-sharepoint-knowledge-source-option.png)
 
-1. Copy and paste the following text into the input then select **Add**. Make sure to update the SharePoint site with your site's URL.
+1. Copy and paste the following text into the input then select **Add**. Replace the SharePoint site URL with the URL for `TEMPLATE_SP_NAME`.
 
     ```text
     https://YOURSITE.sharepoint.com/sites/ContosoIT
@@ -315,7 +315,7 @@ We'll now test our updated agent and how it answers questions using each connect
 
     ![Test SharePoint site and Word file knowledge sources](./assets/04-test-sharepoint-site-and-word-file-knowledge-sources.png)
 
-1. Scroll through the response. The **Contoso VPN Access** section is grounded using the **Contoso IT** SharePoint site, and the **Contoso Guest Wi-Fi** section is grounded using the uploaded document. The reasoning trace shows the SharePoint search and document analysis. The **Citations** section shows the source links surfaced for this response; Copilot Studio can consolidate these links instead of listing every knowledge source separately.
+1. Scroll through the response. The **Contoso VPN Access** section is grounded using the `TEMPLATE_SP_NAME` SharePoint site, and the **Contoso Guest Wi-Fi** section is grounded using the uploaded document. The reasoning trace shows the SharePoint search and document analysis. The **Citations** section shows the source links surfaced for this response; Copilot Studio can consolidate these links instead of listing every knowledge source separately.
 
     ![Guest wifi response and citations](./assets/04-guest-wifi-response-and-citations.png)
 
