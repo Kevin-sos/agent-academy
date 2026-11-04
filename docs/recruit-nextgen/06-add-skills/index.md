@@ -281,6 +281,9 @@ Clear success criteria tell the model when to stop.
 
 In this lab, you will extend the agent you created in [Mission 04 - Build an agent with the Microsoft Copilot harness](../04-build-a-custom-agent/index.md#lab-04-create-an-agent-with-the-github-copilot-harness) by creating a series of custom skills.
 
+> [!NOTE]
+> The examples in this lesson were written for a Copilot Studio agent using a different model. The agent available to you uses **Claude Opus 5**, so its answers may differ in wording, detail, or format from the examples.
+
 ### ✨ Use case {#use-case}
 
 **As an** employee
