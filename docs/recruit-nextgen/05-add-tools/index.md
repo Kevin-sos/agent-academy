@@ -164,7 +164,7 @@ Let's begin!
 
    For the **Site Address** input parameter, update **How is this filled?** from **Fill with AI** to **Custom**.
 
-   1. In the **Value** field, select the `TEMPLATE_SP_NAME` SharePoint site used in the Course Setup mission.
+   1. In the **Value** field, select the [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy) used in the Course Setup mission.
 
 1. Scroll down to the **List Name** input parameter and repeat the same steps:
 

@@ -276,7 +276,7 @@ On the Microsoft Copilot harness, workflows are added to your agent as a **tool*
    Get Device
    ```
 
-1. In the **Site Address** field, select the `TEMPLATE_SP_NAME` SharePoint site used in [Mission 00 - Course Setup](../00-course-setup/index.md#step-5-create-your-list-on-the-shared-sharepoint-site).
+1. In the **Site Address** field, select the [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy) used in [Mission 00 - Course Setup](../00-course-setup/index.md#step-5-create-your-list-on-the-shared-sharepoint-site).
 
 1. In the **List Name** field, select the **EmployeeAssets - Your Name** SharePoint list.
 

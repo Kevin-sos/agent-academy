@@ -47,7 +47,7 @@ Your mission includes:
 1. Creating a personal data list on the shared SharePoint site for later missions
 
 > [!IMPORTANT]
-> Use the Microsoft 365 account and tenant provided by your organization. Skip Steps 1 and 2, then continue directly to [Step 3: Create new developer environment](#step-3-create-new-developer-environment). You do not need a Copilot Studio trial, so skip Step 4. In Step 5, use the existing `TEMPLATE_SP_NAME` SharePoint site; do not create a new site.
+> Use the Microsoft 365 account and tenant provided by your organization. Skip Steps 1 and 2, then continue directly to [Step 3: Create new developer environment](#step-3-create-new-developer-environment). You do not need a Copilot Studio trial, so skip Step 4. In Step 5, use the existing [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy); do not create a new site.
 
 ## 🔍 Prerequisites {#prerequisites}
 
@@ -97,10 +97,10 @@ The following step uses the existing organization SharePoint site.
 
 ## Step 5: Create your list on the shared SharePoint site
 
-Use the existing `TEMPLATE_SP_NAME` SharePoint site for the course. Create a separate list for your work so it is easy to distinguish from other participants' lists.
+Use the existing [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy) for the course. Create a separate list for your work so it is easy to distinguish from other participants' lists.
 
-1. Open [Microsoft Teams](https://teams.microsoft.com/) and select the team connected to `TEMPLATE_SP_NAME`.
-1. Open the team's **Files** tab, then select **Open in SharePoint**.
+1. Open the [Instructions channel in Microsoft Teams](https://teams.microsoft.com/l/channel/19%3AbP_bQb0JWYtf2Y4ZJLwNigIbwKQVHxp6S2BbWbnqueQ1%40thread.tacv2/Instructions?groupId=c34ba355-ea22-4c2e-bb78-5111d989fec9&tenantId=8b87af7d-8647-4dc7-8df4-5f69a2011bb5).
+1. Open the channel's **Files** tab, then select **Open in SharePoint**.
 1. On the SharePoint site, select **New** or **+ New**, then select **List**.
 
     ![Create a new SharePoint list](images/00-create-a-new-sharepoint-list.png)
