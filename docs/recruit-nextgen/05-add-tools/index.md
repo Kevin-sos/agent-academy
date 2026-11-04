@@ -166,10 +166,15 @@ Let's begin!
 
    1. In the **Value** field, select the [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy) used in the Course Setup mission.
 
-1. Scroll down to the **List Name** input parameter and repeat the same steps:
+      ![Select the SharePoint site in Value](./assets/05-select-sharepoint-site-in-value-field.png)
 
-   - Under **How is this filled?**, select **Custom**.
-      - In the **Value** field, select the **EmployeeAssets - Your Name** SharePoint list created in the Course Setup mission.
+   1. Scroll down to the **List Name** input parameter.
+
+   1. Under **How is this filled?**, select **Custom** for the **List Name** input parameter.
+
+   1. In the **Value** field, select the **EmployeeAssets - Your Name** SharePoint list created in the Course Setup mission.
+
+   ![Select the SharePoint list in Value](./assets/05-select-sharepoint-list-in-value-field.png)
 
 1. With the input changes still pending, select **Done** to save them and close the configuration panel.
 
