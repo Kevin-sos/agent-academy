@@ -462,10 +462,6 @@ Evaluations can also run cases that use tools through their configured connectio
 
    ![Saved test set ready for an evaluation run](./assets/m02-2-4-10-evaluate-run-started.png)
 
-1. In **Manage connections**, open **Microsoft Dataverse** and confirm the connection you used for the Dataverse MCP server is selected.
-
-   ![Dataverse connection selected for the evaluation tools](./assets/m02-2-4-11-evaluation-profile-account.png)
-
 1. Select **Save**.
 
    ![Evaluation connections ready to save](./assets/m02-2-4-12-evaluation-profile-save.png)
