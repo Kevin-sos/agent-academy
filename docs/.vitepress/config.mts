@@ -78,55 +78,48 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text: "Microsoft Copilot harness",
-                link: "/recruit-nextgen/",
-                collapsed: true,
-                items: [
-                  {
-                    text: "Course Setup",
-                    link: "/recruit-nextgen/00-course-setup/",
-                  },
-                  {
-                    text: "Introduction to Agents",
-                    link: "/recruit-nextgen/01-introduction-to-agents/",
-                  },
-                  {
-                    text: "Copilot Studio Fundamentals",
-                    link: "/recruit-nextgen/02-copilot-studio-fundamentals/",
-                  },
-                  {
-                    text: "Creating A Solution",
-                    link: "/recruit-nextgen/03-creating-a-solution/",
-                  },
-                  {
-                    text: "Build with the Microsoft Copilot Harness",
-                    link: "/recruit-nextgen/04-build-a-custom-agent/",
-                  },
-                  {
-                    text: "Add a Tool",
-                    link: "/recruit-nextgen/05-add-tools/",
-                  },
-                  {
-                    text: "Add Skills",
-                    link: "/recruit-nextgen/06-add-skills/",
-                  },
-                  {
-                    text: "Automate with Workflows",
-                    link: "/recruit-nextgen/07-automate-with-workflows/",
-                  },
-                  {
-                    text: "Publish Your Agent",
-                    link: "/recruit-nextgen/08-publish-your-agent/",
-                  },
-                  {
-                    text: "Understanding Licensing",
-                    link: "/recruit-nextgen/09-understanding-licensing/",
-                  },
-                  {
-                    text: "Course Completion Badge",
-                    link: "/recruit-nextgen/course-completion-badges-recruit/",
-                  },
-                ],
+                text: "Course Setup",
+                link: "/recruit-nextgen/00-course-setup/",
+              },
+              {
+                text: "Introduction to Agents",
+                link: "/recruit-nextgen/01-introduction-to-agents/",
+              },
+              {
+                text: "Copilot Studio Fundamentals",
+                link: "/recruit-nextgen/02-copilot-studio-fundamentals/",
+              },
+              {
+                text: "Creating A Solution",
+                link: "/recruit-nextgen/03-creating-a-solution/",
+              },
+              {
+                text: "Build with the Microsoft Copilot Harness",
+                link: "/recruit-nextgen/04-build-a-custom-agent/",
+              },
+              {
+                text: "Add a Tool",
+                link: "/recruit-nextgen/05-add-tools/",
+              },
+              {
+                text: "Add Skills",
+                link: "/recruit-nextgen/06-add-skills/",
+              },
+              {
+                text: "Automate with Workflows",
+                link: "/recruit-nextgen/07-automate-with-workflows/",
+              },
+              {
+                text: "Publish Your Agent",
+                link: "/recruit-nextgen/08-publish-your-agent/",
+              },
+              {
+                text: "Understanding Licensing",
+                link: "/recruit-nextgen/09-understanding-licensing/",
+              },
+              {
+                text: "Course Completion Badge",
+                link: "/recruit-nextgen/course-completion-badges-recruit/",
               },
             ],
           },
@@ -136,59 +129,52 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text: "Microsoft Copilot harness",
-                link: "/operative-nextgen/",
-                collapsed: true,
-                items: [
-                  {
-                    text: "Establish the Hiring Hub",
-                    link: "/operative-nextgen/01-get-started/",
-                  },
-                  {
-                    text: "Instructions, Skills and Dataverse MCP",
-                    link: "/operative-nextgen/02-instructions-skills-dataverse-mcp/",
-                  },
-                  {
-                    text: "Add a Connected Interview Agent",
-                    link: "/operative-nextgen/03-connected-agent/",
-                  },
-                  {
-                    text: "Model, Response and Safety",
-                    link: "/operative-nextgen/04-model-response-and-safety/",
-                  },
-                  {
-                    text: "Resume Intake, Matching and Applications",
-                    link: "/operative-nextgen/05-intake-matching-applications/",
-                  },
-                  {
-                    text: "Generate Documents with a Python Skill",
-                    link: "/operative-nextgen/06-document-skill/",
-                  },
-                  {
-                    text: "Automate Resume Intake with a Workflow",
-                    link: "/operative-nextgen/07-workflow-trigger/",
-                  },
-                  {
-                    text: "Add Agents to a Workflow",
-                    link: "/operative-nextgen/08-workflow-agents/",
-                  },
-                  {
-                    text: "Human Oversight and Alternative Flows",
-                    link: "/operative-nextgen/09-human-oversight/",
-                  },
-                  {
-                    text: "Schedule Interviews with Work IQ",
-                    link: "/operative-nextgen/10-work-iq-scheduling/",
-                  },
-                  {
-                    text: "Evaluate, Publish, and Monitor Your Agent",
-                    link: "/operative-nextgen/11-publish-and-monitor/",
-                  },
-                  {
-                    text: "Course Completion Badge",
-                    link: "/operative-nextgen/course-completion-badges-operative/",
-                  },
-                ],
+                text: "Establish the Hiring Hub",
+                link: "/operative-nextgen/01-get-started/",
+              },
+              {
+                text: "Instructions, Skills and Dataverse MCP",
+                link: "/operative-nextgen/02-instructions-skills-dataverse-mcp/",
+              },
+              {
+                text: "Add a Connected Interview Agent",
+                link: "/operative-nextgen/03-connected-agent/",
+              },
+              {
+                text: "Model, Response and Safety",
+                link: "/operative-nextgen/04-model-response-and-safety/",
+              },
+              {
+                text: "Resume Intake, Matching and Applications",
+                link: "/operative-nextgen/05-intake-matching-applications/",
+              },
+              {
+                text: "Generate Documents with a Python Skill",
+                link: "/operative-nextgen/06-document-skill/",
+              },
+              {
+                text: "Automate Resume Intake with a Workflow",
+                link: "/operative-nextgen/07-workflow-trigger/",
+              },
+              {
+                text: "Add Agents to a Workflow",
+                link: "/operative-nextgen/08-workflow-agents/",
+              },
+              {
+                text: "Human Oversight and Alternative Flows",
+                link: "/operative-nextgen/09-human-oversight/",
+              },
+              {
+                text: "Schedule Interviews with Work IQ",
+                link: "/operative-nextgen/10-work-iq-scheduling/",
+              },
+              {
+                text: "Evaluate, Publish, and Monitor Your Agent",
+                link: "/operative-nextgen/11-publish-and-monitor/",
+              },
+              {
+                text: "Course Completion Badge",
+                link: "/operative-nextgen/course-completion-badges-operative/",
               },
             ],
           },
