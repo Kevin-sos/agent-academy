@@ -208,9 +208,6 @@ Make sure you switch to your dedicated developer environment. For details, see [
 
     ![Select Solutions in Copilot Studio navigation](./assets/03-select-solutions-in-copilot-studio-navigation.png)
 
-> [!WARNING]
-> In some browser windows, the **+ New solution** button may be partly below the visible area. If you can't see or select it, reduce your browser zoom until the button is fully visible.
-
 1. In **Solution Explorer**, select **+ New solution**.
 
     ![Select new solution in Solution Explorer](./assets/03-select-new-solution-in-solution-explorer.png)
@@ -261,7 +258,12 @@ Make sure you switch to your dedicated developer environment. For details, see [
 
     ![Contact details for the Solution](./assets/03-contact-details-for-the-solution.png)
 
-1. Select the **Properties** tab, then select **Save** to create the publisher.
+1. Select the **Properties** tab.
+
+    > [!WARNING]
+    > The **Save** button may be almost entirely below the visible area. After entering the publisher details, look for the thin light-blue edge at the bottom of the window; the **Save** action is there.
+
+    Select **Save** to create the publisher.
 
     ![Save the configured solution publisher](./assets/03-save-the-configured-solution-publisher.png)
 
@@ -306,6 +308,9 @@ Your solution publisher is ready. Next, you'll use it to create the custom solut
     - **Description** - a summary of the solution or its configuration page.
 
     Leave these fields blank for this lab.
+
+    > [!WARNING]
+    > The **Create** button may be almost entirely below the visible area. After completing the solution details, look for the thin light-blue edge at the bottom of the window; the **Create** action is there.
 
     Select **Create**.
 
