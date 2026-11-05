@@ -355,7 +355,7 @@ To check that the MCP connection returns current Dataverse records, ask the agen
    | --- | --- |
    | **New chat** | Clears the conversation and starts a fresh session, so nothing you asked earlier carries over into the next answer |
    | **History** | Shows conversation history from Preview, evaluations, and the published agent |
-   | **End-user preview** | Switches between the builder's view and the published experience. Leave it **off** while you build and you see the agent's reasoning and every tool call; turn it **on** and you see only the reply, exactly as a real user would |
+   | **End-user preview (Debug mode off)** | Switches between the builder's view and the published experience. Leave it **off** while you build and you see the agent's reasoning and every tool call; turn it **on** and you see only the reply, exactly as a real user would |
 
     ![Hiring Agent Preview session controls](./assets/m02-2-3-1-build-07-preview.png)
 
@@ -385,8 +385,8 @@ To check that the MCP connection returns current Dataverse records, ask the agen
 
    ![Hiring Agent explains the resume-intake skill](./assets/m02-2-3-4-build-41-j1004-criteria.png)
 
-   > [!TIP] End-user preview
-   > The **End-user preview** toggle above the chat changes what Preview shows you. Leave it **off**
+   > [!TIP] End-user preview (Debug mode off)
+   > The **End-user preview (Debug mode off)** toggle above the chat changes what Preview shows you. Leave it **off**
    > while you build and you see the agent's reasoning and every tool call it makes, such as `describe`
    > and `read_query` in the preceding job-role query. Turn it **on** and all of that is hidden, leaving just the reply, which is
    > exactly what someone chatting with the published agent would see.
