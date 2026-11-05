@@ -208,6 +208,9 @@ Make sure you switch to your dedicated developer environment. For details, see [
 
     ![Select Solutions in Copilot Studio navigation](./assets/03-select-solutions-in-copilot-studio-navigation.png)
 
+> [!WARNING]
+> In some browser windows, the **+ New solution** button may be partly below the visible area. If you can't see or select it, reduce your browser zoom until the button is fully visible.
+
 1. In **Solution Explorer**, select **+ New solution**.
 
     ![Select new solution in Solution Explorer](./assets/03-select-new-solution-in-solution-explorer.png)
