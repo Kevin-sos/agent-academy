@@ -409,17 +409,9 @@ Evaluations can also run cases that use tools through their configured connectio
 
    ![Hiring Agent publication success dialog after completion](./assets/m02-2-4-1-publish-success.png)
 
-1. In the left navigation, select **AgentOps** to open **Operate**.
+1. In the bar at the top, navigate to the **Evaluate** tab.
 
-1. Select **Evaluation**.
-
-   ![Operate Evaluation page with New evaluation highlighted](./assets/m02-2-4-1-manual-evaluation-ready.png)
-
-1. Select **New evaluation**.
-
-1. On the **Agents** tab in the dialog, select **Hiring Agent**, then select **Evaluate agent**.
-
-   ![Hiring Agent row in the evaluation chooser](./assets/m02-2-4-1-choose-hiring-agent.png)
+1. Select **Create your first evaluation**.
 
 1. Under **Select data type**, select **Single responses**.
 
