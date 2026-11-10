@@ -47,7 +47,7 @@ Your mission includes:
 1. Creating a personal data list on the shared SharePoint site for later missions
 
 > [!IMPORTANT]
-> Use the Microsoft 365 account and tenant provided by your organization. Skip Steps 1 and 2, then continue directly to [Step 3: Create new developer environment](#step-3-create-new-developer-environment). You do not need a Copilot Studio trial, so skip Step 4. In Step 5, use the existing [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy); do not create a new site.
+> Use the Microsoft 365 account and tenant provided by your organization. In Step 2, use the existing [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy); do not create a new site.
 
 ## 🔍 Prerequisites {#prerequisites}
 
@@ -60,11 +60,7 @@ Before you begin, ensure you have:
 
 ## 🧪 Development Environment Setup {#development-environment-setup}
 
-## Steps 1–2: Microsoft 365 Account and Copilot Studio Trial (Skip)
-
-Use the Microsoft 365 account and Copilot Studio access provided by your organization. Do not create a separate tenant or start a Copilot Studio trial.
-
-## Step 3: Create new developer environment
+## Step 1: Create new developer environment
 
 ### Sign up for a Power Apps Developer Plan
 
@@ -87,15 +83,11 @@ Using your organization-provided Microsoft 365 account, sign up for a Power Apps
 >
 > If you are using an existing environment from your organization, ensure it is **not** a managed environment. Managed environment restrictions can prevent certain features — such as adding Power Automate flows as agent tools — from working correctly.
 
-## Step 4: Copilot Studio Trial (Skip)
-
-This course does not use a Copilot Studio trial license. Continue to Step 5 without completing this step.
-
 ## 🔧 Required Setup (Everyone) {#required-setup-everyone}
 
 The following step uses the existing organization SharePoint site.
 
-## Step 5: Create your list on the shared SharePoint site
+## Step 2: Create your list on the shared SharePoint site
 
 Use the existing [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy) for the course. Create a separate list for your work so it is easy to distinguish from other participants' lists.
 

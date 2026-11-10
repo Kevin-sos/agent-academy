@@ -132,7 +132,7 @@ Before starting this lab, make sure you have:
 
 - Access to Copilot Studio with the **New experience** toggle enabled for the Microsoft Copilot harness authoring surface
 - The solution from [Mission 03 - Creating a solution](../03-creating-a-solution/index.md)
-- Your test knowledge source(s), for example the [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy) from [Mission 00 - Course setup](../00-course-setup/index.md#step-5-create-your-list-on-the-shared-sharepoint-site)
+- Your test knowledge source(s), for example the [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy) from [Mission 00 - Course setup](../00-course-setup/index.md#step-2-create-your-list-on-the-shared-sharepoint-site)
 
 > [!WARNING] Copilot Credit consumption starts during creation
 > Agents built with the **Microsoft Copilot harness** use consumption-based billing. The natural-language authoring, Preview, and Evaluation experiences consume **Copilot Credits** while you build and test; manual configuration in the **Build** and **Monitor** tabs doesn't consume credits. See [Mission 09 - Understanding Licensing](../09-understanding-licensing/index.md) for more guidance and the [Copilot Credits Guide](https://aka.ms/CopilotCredits/LicensingGuide) for current details.

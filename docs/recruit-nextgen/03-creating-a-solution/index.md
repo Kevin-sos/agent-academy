@@ -195,7 +195,7 @@ The following are the security roles that enable users to create a solution in t
 #### Developer environment
 
 ::: warning Switch to your environment
-Make sure you switch to your dedicated developer environment. For details, see [Lesson 00 - Course Setup - Step 3: Create new developer environment](../00-course-setup/index.md#step-3-create-new-developer-environment).
+Make sure you switch to your dedicated developer environment. For details, see [Mission 00 - Course Setup - Step 1: Create new developer environment](../00-course-setup/index.md#step-1-create-new-developer-environment).
 :::
 
 1. In Copilot Studio, from the left navigation, select the **environment** icon and switch from the default environment to your environment, for example **Adele Vance's environment**.

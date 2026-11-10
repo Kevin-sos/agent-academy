@@ -103,7 +103,7 @@ In this lab we’ll use the **SharePoint - Get items** connector action so the a
 
 ### Prerequisites
 
-1. **SharePoint list** - your `EmployeeAssets - Your Name` list from [Mission 00 - Course Setup](../00-course-setup/index.md#step-5-create-your-list-on-the-shared-sharepoint-site).
+1. **SharePoint list** - your `EmployeeAssets - Your Name` list from [Mission 00 - Course Setup](../00-course-setup/index.md#step-2-create-your-list-on-the-shared-sharepoint-site).
 1. **Contoso IT Concierge** - the agent created in [Mission 04 - Build an agent with the Microsoft Copilot harness](../04-build-a-custom-agent/index.md#lab-04-create-an-agent-with-the-github-copilot-harness).
 
 Let's begin!
