@@ -189,6 +189,19 @@ Make sure you switch to your dedicated developer environment. For details, see [
 
     ![Select the Power Platform developer environment](./assets/03-select-the-power-platform-developer-environment.png)
 
+::: warning Dataverse is required
+If Copilot Studio won't let you create a solution because Dataverse isn't enabled, ask your Power Platform administrator to add a Dataverse database to this environment. The administrator needs the appropriate environment permissions and license.
+
+1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. Navigate to **Manage > Environments** and select the environment you're using for this course.
+1. Select **+ Add Dataverse**.
+1. In the **Add Dataverse** pane, choose the required language and currency. Follow your organization's policy for the security group, if prompted. Leave **Enable Dynamics 365 apps** set to **No** unless your organization requires those apps.
+1. Select **Add** and wait for the database setup to finish.
+1. Return to Copilot Studio, select the same environment, and continue creating the solution.
+
+An environment can have only one Dataverse database. If **+ Add Dataverse** isn't available, ask your administrator to check the environment, permissions, and licensing. For details, see [Add a Microsoft Dataverse database](https://learn.microsoft.com/power-platform/admin/create-database?WT.mc_id=power-172621-ebenitez).
+:::
+
 ### 3.1 Create a Solution publisher
 
 1. From the left navigation, select the **ellipsis** icon near the bottom, then under **Explore** select **Solutions**.
