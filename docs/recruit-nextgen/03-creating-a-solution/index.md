@@ -179,19 +179,6 @@ In this lab, you'll create a solution publisher and a custom solution in your de
 > If you need a Copilot Studio license or test environment, follow the [Recruit Course Setup lab](../00-course-setup/index.md).
 
 #### Security role
-
-Your security role determines which tasks you can perform in Solution Explorer. If you can't manage solutions in the Power Apps maker portal, you also can't manage them in Copilot Studio.
-
-Confirm that you have one of the following roles. If your organization manages your environment, ask your Power Platform administrator to confirm your access.
-
-The following are the security roles that enable users to create a solution in their environment.
-
-| Security role | Description |
-| ---------- | ---------- |
-| Environment Maker | Provides the necessary permissions to create, customize, and manage resources within a specific environment, including solutions |
-| System Customizer | Wider permissions than Environment Maker, including the ability to customize the environment and manage security roles |
-| System Administrator | Highest level of permissions and can manage all aspects of the environment, including creating and assigning security roles |
-
 #### Developer environment
 
 ::: warning Switch to your environment
