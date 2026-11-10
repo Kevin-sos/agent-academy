@@ -87,6 +87,10 @@ Using your organization-provided Microsoft 365 account, sign up for a Power Apps
 
 The following step uses the existing organization SharePoint site.
 
+Before opening SharePoint, download and extract the ZIP file below. Keep `EmployeeAssets.xlsx` available; you'll upload it in the next step.
+
+<download-files path="recruit-nextgen/00-course-setup/assets/employee-assets" label="Download Excel .zip file for List" />
+
 ## Step 2: Create your list on the shared SharePoint site
 
 Use the existing [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy) for the course. Create a separate list for your work so it is easy to distinguish from other participants' lists.
@@ -104,9 +108,7 @@ Use the existing [SharePoint site](https://steria.sharepoint.com/sites/Accelerat
 
     ![Upload the EmployeeAssets Excel file](images/00-upload-the-employeeassets-excel-file.png)
 
-1. Download the following ZIP file, extract it, then upload `EmployeeAssets.xlsx` to the list by selecting **Open**.
-
-    <download-files path="recruit-nextgen/00-course-setup/assets/employee-assets" label="Download Excel .zip file for List" />
+1. Select the extracted `EmployeeAssets.xlsx` file, then select **Open** to upload it.
 
     ![Select the uploaded EmployeeAssets file](images/00-select-the-uploaded-employeeassets-file.png)
 
