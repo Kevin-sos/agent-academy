@@ -87,9 +87,9 @@ Using your organization-provided Microsoft 365 account, sign up for a Power Apps
 
 The following step uses the existing organization SharePoint site.
 
-Before opening SharePoint, download and extract the ZIP file below. Keep `EmployeeAssets.xlsx` available; you'll upload it in the next step.
-
 <download-files path="recruit-nextgen/00-course-setup/assets/employee-assets" label="Download Excel .zip file for List" />
+
+Before opening SharePoint, use the button above to download and extract the ZIP file. Keep `EmployeeAssets.xlsx` available; you'll upload it in the next step.
 
 ## Step 2: Create your list on the shared SharePoint site
 
