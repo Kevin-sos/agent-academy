@@ -91,8 +91,7 @@ The following step uses the existing organization SharePoint site.
 
 Use the existing [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy) for the course. Create a separate list for your work so it is easy to distinguish from other participants' lists.
 
-1. Open the [Instructions channel in Microsoft Teams](https://teams.microsoft.com/l/channel/19%3AbP_bQb0JWYtf2Y4ZJLwNigIbwKQVHxp6S2BbWbnqueQ1%40thread.tacv2/Instructions?groupId=c34ba355-ea22-4c2e-bb78-5111d989fec9&tenantId=8b87af7d-8647-4dc7-8df4-5f69a2011bb5).
-1. Open the channel's **Files** tab, then select **Open in SharePoint**.
+1. Open the [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy).
 1. On the SharePoint site, select **New** or **+ New**, then select **List**.
 
     ![Create a new SharePoint list](images/00-create-a-new-sharepoint-list.png)
