@@ -168,15 +168,9 @@ The Hiring Agent is the user-facing entry point, so the disclosure goes in its g
 
 ### 4.2 Create the AI Safety evaluation
 
-As in Missions 02 and 03, start in **AgentOps** to create a Single response evaluation with expected answers and Compare meaning. Create a separate safety set rather than adding these cases to **Interview Agent baseline**. Once you save the evaluation, you can edit and run it from the agent's Evaluate tab.
+As in Missions 02 and 03, use the **Evaluate** tab at the top to create a Single response evaluation with expected answers and Compare meaning. Create a separate safety set rather than adding these cases to **Interview Agent baseline**. Once you save the evaluation, you can edit and run it from the agent's Evaluate tab.
 
-1. In the left navigation, select the **AgentOps** area.
-
-   ![AgentOps area in Copilot Studio](./assets/m04-4-2-1-agentops-area.png)
-
-1. On the **Operate** dashboard, select the **Evaluation** tab.
-
-   ![Evaluation tab on the Operate dashboard](./assets/m04-4-2-2-evaluation-tab.png)
+1. In the bar at the top, navigate to the **Evaluate** tab.
 
 1. Select **+ New evaluation**.
 
@@ -188,7 +182,7 @@ As in Missions 02 and 03, start in **AgentOps** to create a Single response eval
 
 1. On the new evaluation page, under **Select data type**, select **Single responses** rather than **Conversations**.
 
-   ![Single responses available in AgentOps evaluation](./assets/m04-4-2-5-agentops-data-source.png)
+   ![Single response evaluation data-type options](./assets/m04-4-2-5-single-response-data-type.png)
 
 1. Select **Or, write some questions yourself**.
 
@@ -198,7 +192,7 @@ As in Missions 02 and 03, start in **AgentOps** to create a Single response eval
    Interview Agent - AI Safety Evals
    ```
 
-   ![Named Single response evaluation in AgentOps](./assets/m04-4-2-7-agentops-single-response.png)
+   ![Named Single response safety evaluation](./assets/m04-4-2-7-single-response-safety-evaluation.png)
 
 1. Under **Select test methods**, select **…** next to **General quality**, then select **Delete test method**.
 

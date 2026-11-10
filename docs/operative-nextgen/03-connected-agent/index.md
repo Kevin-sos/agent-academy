@@ -333,9 +333,9 @@ The **Evaluate** tab tests one agent at a time, so the Hiring Agent's set from M
 
 Like the Hiring Agent's baseline in Mission 02, this first set asks the specialist about itself: who it is, which identifiers it uses, what it does when the hiring data doesn't support an answer, and where its boundaries are. None of those cases need live data, so the set behaves the same in any environment and you can re-run it after any change without setting anything up first.
 
-1. In the left navigation, select **AgentOps** to open **Operate**.
+1. In the bar at the top, navigate to the **Evaluate** tab.
 
-1. Select **Evaluation**.
+1. Select **Create your first evaluation**.
 
 1. Select **New evaluation**.
 
@@ -343,7 +343,7 @@ Like the Hiring Agent's baseline in Mission 02, this first set asks the speciali
 
 1. Under **Select data type**, select **Single responses**.
 
-    ![AgentOps new evaluation with Single responses selected](./assets/m03-3-5-1-evaluate-tab.png)
+    ![Interview Agent evaluation with Single responses selected](./assets/m03-3-5-1-evaluate-tab.png)
 
 1. Select **Or, write some questions yourself**.
 
@@ -369,7 +369,7 @@ Like the Hiring Agent's baseline in Mission 02, this first set asks the speciali
 
 1. Select **Add**, then **Write**.
 
-    ![AgentOps Add menu with Write highlighted](./assets/m03-3-5-3-add-conversations.png)
+    ![Evaluation Add menu with Write highlighted](./assets/m03-3-5-3-add-conversations.png)
 
 1. Add these four **positive** cases as Question and Expected response pairs:
 

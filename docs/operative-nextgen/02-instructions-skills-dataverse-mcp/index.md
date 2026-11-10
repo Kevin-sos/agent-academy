@@ -421,7 +421,7 @@ Evaluations can also run cases that use tools through their configured connectio
 
 1. Name the evaluation `Hiring Agent baseline`.
 
-   ![AgentOps Single response evaluation named Hiring Agent baseline](./assets/m02-2-4-2-single-response-baseline.png)
+   ![Single response evaluation named Hiring Agent baseline](./assets/m02-2-4-2-single-response-baseline.png)
 
 1. Open the **Answer quality** menu (shown as **General quality** in earlier versions) and select **Delete test method**.
 
