@@ -315,6 +315,8 @@ We'll now test our updated agent and how it answers questions using each connect
 
     ![Test SharePoint site and Word file knowledge sources](./assets/04-test-sharepoint-site-and-word-file-knowledge-sources.png)
 
+    **Important:** We cannot create our own SharePoint site for this exercise. Without access to an authorized SharePoint source containing the VPN details, the agent will likely not have the data needed to answer the VPN question. The Guest Wi-Fi answer can still be grounded in the uploaded document.
+
 1. Scroll through the response. The **Contoso VPN Access** section is grounded using the [SharePoint site](https://steria.sharepoint.com/sites/Accelerators-AgentAcademy), and the **Contoso Guest Wi-Fi** section is grounded using the uploaded document. The reasoning trace shows the SharePoint search and document analysis. The **Citations** section shows the source links surfaced for this response; Copilot Studio can consolidate these links instead of listing every knowledge source separately.
 
     ![Guest wifi response and citations](./assets/04-guest-wifi-response-and-citations.png)
