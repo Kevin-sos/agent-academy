@@ -239,6 +239,10 @@ As explained in the [course naming update](../index.md#harness-naming-update), t
 
     Now, we'll now add another internal knowledge source by uploading a document directly to our agent.
 
+1. Download the Contoso Guest WiFi Connection Guide.
+
+    <download-files path="recruit-nextgen/04-build-a-custom-agent/assets/WordFile/Contoso_Guest_WiFi_Connection_Guide.docx" />
+
 1. In the **Knowledge** section, select **Add+** icon.
 
     ![Select plus icon to add knowledge](./assets/04-select-plus-icon-to-add-knowledge.png)
@@ -246,10 +250,6 @@ As explained in the [course naming update](../index.md#harness-naming-update), t
 1. Select **Click to upload**.
 
     ![Select Click to upload knowledge file](./assets/04-select-click-to-upload-knowledge-file.png)
-
-1. Download the Contoso Guest WiFi Connection Guide.
-
-    <download-files path="recruit-nextgen/04-build-a-custom-agent/assets/WordFile/Contoso_Guest_WiFi_Connection_Guide.docx" />
 
     In File Explorer, select `Contoso_Guest_WiFi_Connection_Guide.docx`, and then select **Open**.
 
