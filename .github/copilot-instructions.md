@@ -7,6 +7,10 @@ The purpose of this repo is to provide training materials and resources for Agen
 ## Language and Tone
 Conversations with Kevin will be in dutch, anything else must be in English.
 
+
+## Publishing
+Always publish changes to the repository following the established workflow and review process.
+
 ## Mission Writing
 
 Whenever you create or edit Agent Academy instructional content, including instructions within missions, read and follow the root-level [WRITING_STYLE.md](../WRITING_STYLE.md). This applies to revisions as well as new content. Follow the general requirements and the section specific to the mission type; treat the guide as the source of truth for structure, voice, accessibility, formatting, and lab steps.

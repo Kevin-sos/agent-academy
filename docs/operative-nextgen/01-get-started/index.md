@@ -22,11 +22,6 @@ last-edited-date: 2026-10-29
 
 # 🚨 Mission 01: Establish the Hiring Hub {#mission-01-establish-the-hiring-hub}
 
-<script setup>
-import jobRolesUrl from './assets/sample-data/job-roles.csv?url&no-inline';
-import evaluationCriteriaUrl from './assets/sample-data/evaluation-criteria.csv?url&no-inline';
-</script>
-
 <mission-meta />
 
 ## 🎯 Mission Brief {#mission-brief}
@@ -225,8 +220,8 @@ Before the agent can read or write hiring data, its Dataverse tables and the Hir
 The matching and interview-prep missions need **Job Roles** and their weighted **Evaluation Criteria**. Download the two CSVs - the same example data used by the original Operative course:
 
 <!-- markdownlint-disable MD033 -->
-- <a :href="jobRolesUrl" download="job-roles.csv">Download job-roles.csv</a>
-- <a :href="evaluationCriteriaUrl" download="evaluation-criteria.csv">Download evaluation-criteria.csv</a>
+- <download-files path="operative-nextgen/01-get-started/assets/sample-data/job-roles.csv" />
+- <download-files path="operative-nextgen/01-get-started/assets/sample-data/evaluation-criteria.csv" />
 <!-- markdownlint-enable MD033 -->
 
 Now import the Job Role sample data. Follow these steps:

@@ -23,12 +23,6 @@ last-edited-date: 2026-10-06
 
 # 🚨 Mission 06: Generate Documents with a Python Skill {#mission-06-generate-documents-with-a-python-skill}
 
-<script setup>
-import referenceSkillUrl from './interview-prep-document-skill.zip?url&no-inline';
-import sampleInputUrl from './skill/interview_input.sample.json?url&no-inline';
-import sampleDocumentUrl from './skill/interview_prep.sample.docx?url&no-inline';
-</script>
-
 <mission-meta />
 
 ## 🎯 Mission Brief {#mission-brief}
@@ -38,7 +32,9 @@ Welcome, Operative. In this mission you'll generate an **interview-prep Word doc
 When a document's layout must be exact, a language model shouldn't format it because the result can change on every run. Instead, you'll build a **skill that runs Python** (`python-docx`) to apply the same sections, ordering, and styles to structured input. The agent still prepares the summary, evidence, and questions, so that wording can vary.
 
 <!-- markdownlint-disable-next-line MD033 -->
-You'll **draft this skill with the help of an agent** - handing it the requirements and a document template and letting it write the Python, test it, and return a zipped skill - then add it to your Hiring Agent. A ready-made, tested version is provided as <a :href="referenceSkillUrl" download="interview-prep-document-skill.zip"><code>interview-prep-document-skill.zip</code></a> so you can check your work against it or skip the authoring.
+You'll **draft this skill with the help of an agent** - handing it the requirements and a document template and letting it write the Python, test it, and return a zipped skill - then add it to your Hiring Agent. A ready-made, tested version is provided so you can check your work against it or skip the authoring.
+
+<download-files path="operative-nextgen/06-document-skill/interview-prep-document-skill.zip" />
 
 ## 🔎 Objectives {#objectives}
 
@@ -80,7 +76,9 @@ This is the first mission that uses **Python**. You won't write any yourself - a
 ## 📦 The skill package {#the-skill-package}
 
 <!-- markdownlint-disable-next-line MD033 -->
-You'll build (or reuse) a skill package that's just a **`SKILL.md`** plus **some Python scripts**, zipped together. A **tested reference** is provided as <a :href="referenceSkillUrl" download="interview-prep-document-skill.zip"><code>interview-prep-document-skill.zip</code></a> - unzip it to check your work against these files:
+You'll build (or reuse) a skill package that's just a **`SKILL.md`** plus **some Python scripts**, zipped together. A **tested reference** is provided - unzip it to check your work against these files:
+
+<download-files path="operative-nextgen/06-document-skill/interview-prep-document-skill.zip" />
 
 | File | Purpose |
 | --- | --- |
@@ -93,7 +91,10 @@ The document's **Evidence level** column (Strong / Moderate / Weak / Missing) us
 > Revisit [Recruit Mission 06: Add Skills](../../recruit-nextgen/06-add-skills/index.md#authoring-skills) for what belongs in each section of a `SKILL.md`.
 
 <!-- markdownlint-disable-next-line MD033 -->
-At runtime the agent gathers the data, writes the JSON, and has the skill run the generator to produce the `.docx` - you never run Python yourself. A sample input (<a :href="sampleInputUrl" download="interview_input.sample.json"><code>skill/interview_input.sample.json</code></a>) and a generated example (<a :href="sampleDocumentUrl" download="interview_prep.sample.docx"><code>skill/interview_prep.sample.docx</code></a>) are included so you can see exactly what a correct result looks like.
+At runtime the agent gathers the data, writes the JSON, and has the skill run the generator to produce the `.docx` - you never run Python yourself. A sample input and a generated example are included so you can see exactly what a correct result looks like.
+
+<download-files path="operative-nextgen/06-document-skill/skill/interview_input.sample.json" />
+<download-files path="operative-nextgen/06-document-skill/skill/interview_prep.sample.docx" />
 
 ## 📄 The document template {#the-document-template}
 
@@ -296,7 +297,9 @@ We do not have to write the Python by hand. Next we will create a **builder agen
 > correctness. Iterate with follow-up prompts until the sample document looks right.
 
 <!-- markdownlint-disable-next-line MD033 -->
-**Prefer not to author from scratch?** The tested reference skill <a :href="referenceSkillUrl" download="interview-prep-document-skill.zip"><code>interview-prep-document-skill.zip</code></a> is a working skill for reference. Compare your generated files against it, or just upload it in Lab 6.2 and come back to authoring later.
+**Prefer not to author from scratch?** The tested reference skill is a working skill for reference. Compare your generated files against it, or just upload it in Lab 6.2 and come back to authoring later.
+
+<download-files path="operative-nextgen/06-document-skill/interview-prep-document-skill.zip" />
 
 ### 6.2 Add the skill to the Hiring Agent
 
