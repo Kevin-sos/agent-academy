@@ -19,6 +19,9 @@ You'll start by importing the hiring data model and creating a new **Hiring Agen
 
 Everything here runs on the **Microsoft Copilot harness** - the runtime that gives an agent its orchestrator, its tool-calling behavior, and its reasoning loop. Copilot Studio also offers a **standard harness** for topic-based authoring, but this course focuses on the Microsoft Copilot harness throughout.
 
+> [!WARNING] Model availability
+> The examples in this course were created with **Claude Opus 5**, which may not be available to everyone. You can complete the assignments with GPT models; results may differ from the examples and instructions shown in this guide.
+
 ## Harness naming update {#harness-naming-update}
 
 > [!NOTE] Microsoft Copilot harness

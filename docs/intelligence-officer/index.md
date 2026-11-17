@@ -17,6 +17,10 @@ Zava sells connected espresso machines, commercial brewers, accessories, and sub
 
 In **Operation Recovery Intelligence**, you'll connect the customer story to policy, approval history, and the next responsible action. You'll build the data foundation, enforce routing with a server-side plugin, and teach agents to explain the evidence without making decisions on someone's behalf.
 
+> [!WARNING] Model availability
+> The examples in this course were created with **Claude Opus 5**, which may not be available to everyone. You can complete the assignments with GPT models; results may differ from the examples and instructions shown in this guide.
+
+<!-- Separate adjacent callouts for Markdownlint. -->
 > [!IMPORTANT]
 > This is a draft, direct-link-only course adapted from the **PPCC 2026 workshop, Agents Meet Business Applications in Work IQ**. It isn't listed in the site's navigation, mission grids, or local search. Its pages and downloads are still public to anyone with their URLs.
 

@@ -312,8 +312,9 @@ The home-card and agent-list labels may still say **GitHub Copilot** during the 
 
    > [!NOTE] The default model
    > A new agent starts on the platform's default model - in this build, **Claude Opus 5**, shown
-   > under **Model** on the right of the Build canvas. Leave it as it is, because every step in this mission
-   > assumes that model. You'll compare models and change this deliberately in
+   > under **Model** on the right of the Build canvas. If Claude Opus 5 is unavailable, you can use a GPT model
+   > to complete the mission; results may differ from the examples in this guide. You'll compare models and
+   > change this deliberately in
    > [Mission 04](../04-model-response-and-safety/index.md).
 
 1. Name the agent:

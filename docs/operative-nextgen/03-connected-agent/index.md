@@ -121,11 +121,9 @@ The Hiring Agent needs a separate specialist agent for interview preparation.
 
     ![Interview Agent instructions and default web knowledge](./assets/m03-3-1-3-interview-agent-build.png)
 
-   > [!NOTE] The default model
-   > As with the Hiring Agent in Mission 01, a new agent starts on the platform's default model - in
-   > this build, **Claude Opus 5**, shown under **Model** on the right of the Build canvas. Leave it as
-   > it is. Every step in this mission assumes that model, and you'll compare models and change this
-   > deliberately in [Mission 04](../04-model-response-and-safety/index.md).
+    > [!NOTE] The model used in this course
+    > The examples in this course were created with **Claude Opus 5**, which may not be available to everyone. You can complete the assignments with GPT models, but their output may differ from the examples and results shown here. [Mission 04](../04-model-response-and-safety/index.md)
+    > covers comparing models and changing the selection.
 
 1. Before the first save, open the more options menu, **Settings**, **Agent details** and set the agent's **identity**. As with the Hiring Agent in Mission 01, these fields become read-only once you save:
 
